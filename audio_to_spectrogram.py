@@ -5,7 +5,6 @@ import librosa
 from librosa.display import specshow
 import os
 
-
 rootdir = "data_audio"
 
 for subdir, dirs, files in os.walk(rootdir):
